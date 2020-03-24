@@ -2,20 +2,21 @@ package br.ce.wcaquino.suites;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
-import br.ce.wcaquino.servicos.CalcularodoraTeste;
 import br.ce.wcaquino.servicos.CalculoValorLocacaoTeste;
 import br.ce.wcaquino.servicos.LocacacaoServiceTeste;
 
 //@RunWith(Suite.class)
 @SuiteClasses({
-	CalcularodoraTeste.class,
+	//CalcularodoraTeste.class,
 	CalculoValorLocacaoTeste.class,
 	LocacacaoServiceTeste.class
 })
 public class SuiteExecucao {
-	//remova se puder
+	//remova se puder 
 	
 	
 	@BeforeClass
